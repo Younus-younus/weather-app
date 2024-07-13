@@ -1,0 +1,30 @@
+.card {
+    width: auto;
+    /* text-align: center; */
+    border-radius: 30px;
+}
+.card1 {
+    width: auto;
+    border-radius: 20px;
+}
+.searchBoxContainer {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.searchbox {
+    width: 70%;
+    margin-left: 5px;
+}
+.button {
+    height: 54px;
+    margin: 20px;
+    width: 25%;
+}
+
+@media screen and (max-width: 416px) {
+    .card1 {
+     width: 80%;
+     margin-left: 2rem;
+    }
+  }
